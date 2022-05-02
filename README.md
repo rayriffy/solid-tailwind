@@ -29,7 +29,7 @@ pnpm vite-dev
 
 ```
 # With backend API
-pnpm dev
+pnpm vercel-dev
 
 # Without backend API
 pnpm vite-dev

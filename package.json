@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "",
   "scripts": {
-    "dev": "vercel dev --local-config ./vercel-dev.json",
+    "vercel-dev": "vercel dev --local-config ./vercel-dev.json",
     "vite-dev": "vite --port $PORT",
     "build": "vite build",
     "serve": "vite preview",
