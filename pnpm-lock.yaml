@@ -20,6 +20,7 @@ specifiers:
   vite-plugin-pwa: ^0.12.0
   vite-plugin-radar: ^0.4.2
   vite-plugin-solid: ^2.2.6
+  workbox-window: ^6.5.3
 
 dependencies:
   axios: 0.27.2
@@ -43,6 +44,7 @@ devDependencies:
   vite-plugin-pwa: 0.12.0_vite@2.9.7
   vite-plugin-radar: 0.4.2_vite@2.9.7
   vite-plugin-solid: 2.2.6
+  workbox-window: 6.5.3
 
 packages:
 
