@@ -1,4 +1,4 @@
-import { useTitle } from "../core/services/useTitle";
+import { useTitle } from '../core/services/useTitle'
 
 export default function NotFound() {
   useTitle()
@@ -8,5 +8,5 @@ export default function NotFound() {
       <h1 class="text-2xl font-bold">404: Not Found</h1>
       <p class="mt-4">It's gone 😞</p>
     </section>
-  );
+  )
 }

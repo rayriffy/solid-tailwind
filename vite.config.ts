@@ -1,4 +1,4 @@
-import { defineConfig } from 'vite';
+import { defineConfig } from 'vite'
 
 import { createHtmlPlugin } from 'vite-plugin-html'
 import { VitePWA } from 'vite-plugin-pwa'
@@ -82,4 +82,4 @@ export default defineConfig({
     target: 'esnext',
     polyfillDynamicImport: false,
   },
-});
+})

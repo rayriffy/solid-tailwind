@@ -1,9 +1,9 @@
 /* @refresh reload */
-import { render } from "solid-js/web";
-import { Router } from "solid-app-router";
-import App from "./app";
+import { render } from 'solid-js/web'
+import { Router } from 'solid-app-router'
+import App from './app'
 
-import "./styles/tailwind.css";
+import './styles/tailwind.css'
 
 render(
   () => (
@@ -11,5 +11,5 @@ render(
       <App />
     </Router>
   ),
-  document.getElementById("root") as HTMLElement
-);
+  document.getElementById('root') as HTMLElement
+)

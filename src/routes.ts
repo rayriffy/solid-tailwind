@@ -1,5 +1,5 @@
-import { lazy } from 'solid-js';
-import type { RouteDefinition } from 'solid-app-router';
+import { lazy } from 'solid-js'
+import type { RouteDefinition } from 'solid-app-router'
 
 export const routes: RouteDefinition[] = [
   {
@@ -19,4 +19,4 @@ export const routes: RouteDefinition[] = [
     path: '**',
     component: lazy(() => import('./errors/404')),
   },
-];
+]
