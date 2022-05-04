@@ -14,6 +14,7 @@ export const routes: RouteDefinition[] = [
   {
     path: '/dynamic/:dynamicId',
     component: lazy(() => import('./pages/dynamic/[dynamicId]')),
+    data: await import('./pages/dynamic/[dynamicId].data').then(o => o.default),
   },
   {
     path: '**',
