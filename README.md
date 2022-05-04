@@ -1,6 +1,6 @@
 # solid-tailwind
 
-Ready-to-develop template for SolidJS rapid development
+Ready-to-develop template for SolidJS development
 
 ## Features
 
